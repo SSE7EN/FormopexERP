@@ -1,0 +1,89 @@
+# Spring properties
+spring:
+  application:
+    name: api-gateway
+
+# Server
+server:
+  port: 8081
+
+# Discovery Server Access
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    hostname: localhost
+
+ribbon:
+  eureka:
+    enabled: true
+
+# Api-Get-Way
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+  prefix: /api
+  routes:
+    auth-service:
+      path: /auth-service/**
+      serviceId: AUTH-SERVICE
+    project-service:
+      path: /project-service/**
+      serviceId: PROJECT-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    element-service:
+      path: /element-service/**
+      serviceId: ELEMENT-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    elementType-service:
+      path: /elementType-service/**
+      serviceId: ELEMENTTYPE-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    documentation-service:
+      path: /documentation-service/**
+      serviceId: DOCUMENTATION-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    itemList-service:
+      path: /itemList-service/**
+      serviceId: ITEMLIST-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    documentationTemplate-service:
+      path: /documentationTemplate-service/**
+      serviceId: DOCUMENTATIONTEMPLATE-SERVICE
+      sensitiveHeaders: Cookie,Set-Cookie
+    itemDocumentationTemplate-service:
+      path: /itemDocumentationTemplate-service/**
+      serviceId: ITEMDOCUMENTATIONTEMPLATE-SERVICE # 8089
+      sensitiveHeaders: Cookie,Set-Cookie
+    elementDocumentationTemplate-service:
+      path: /elementDocumentationTemplate-service/**
+      serviceId: ELEMENTDOCUMENTATIONTEMPLATE-SERVICE # 8090
+      sensitiveHeaders: Cookie,Set-Cookie
+    itemType-service:
+      path: /itemType-service/**
+      serviceId: ITEMTYPE-SERVICE # 8091
+      sensitiveHeaders: Cookie,Set-Cookie
+    documentationFile-service:
+      path: /documentationFile-service/**
+      serviceId: DOCUMENTATIONFILE-SERVICE #8092
+      sensitiveHeaders: Cookie,Set-Cookie
+    documentationProvider-service:
+      path: /documentationProvider-service/**
+      serviceId: DOCUMENTATIONPROVIDER-SERVICE #8093
+      sensitiveHeaders: Cookie,Set-Cookie
+
+
+
+# Increase the Hystrix timeout to 60s (globally)
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+

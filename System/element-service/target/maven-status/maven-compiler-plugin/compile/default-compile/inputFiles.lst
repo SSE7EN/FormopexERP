@@ -1,0 +1,9 @@
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/request/ElementUpdateRequestModel.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/config/ElementServiceConfiguration.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/service/IElementService.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/ElementServiceApplication.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/security/config/WebSecurityConfig.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/request/ElementCreateRequestModel.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/repository/IElementRepository.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/service/ElementServiceImpl.java
+/home/se7en/Work/Formopex/System/element-service/src/main/java/com/wss/element/api/controller/ElementController.java

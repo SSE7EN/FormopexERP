@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/project-service/pom.xml" />
+        <option value="$PROJECT_DIR$/project-element-data/pom.xml" />
+        <option value="$PROJECT_DIR$/element-service/pom.xml" />
+        <option value="$PROJECT_DIR$/documentation-service/pom.xml" />
+        <option value="$PROJECT_DIR$/elementType-service/pom.xml" />
+        <option value="$PROJECT_DIR$/itemList-service/pom.xml" />
+        <option value="$PROJECT_DIR$/documentationTemplate-data/pom.xml" />
+        <option value="$PROJECT_DIR$/itemListDocumentationTemplate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ElementDocumentationTemplate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/documentationTemplate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/itemType-service/pom.xml" />
+        <option value="$PROJECT_DIR$/itemDocumentationTemplate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/elementDocumentationTemplate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/documentation-common/pom.xml" />
+        <option value="$PROJECT_DIR$/documentFile-service/pom.xml" />
+        <option value="$PROJECT_DIR$/documentationProvider-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

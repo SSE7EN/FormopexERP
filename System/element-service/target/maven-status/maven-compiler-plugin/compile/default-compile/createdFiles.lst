@@ -1,0 +1,9 @@
+com/wss/element/api/service/IElementService.class
+com/wss/element/api/config/ElementServiceConfiguration.class
+com/wss/element/api/ElementServiceApplication.class
+com/wss/element/api/request/ElementUpdateRequestModel.class
+com/wss/element/api/controller/ElementController.class
+com/wss/element/api/service/ElementServiceImpl.class
+com/wss/element/api/request/ElementCreateRequestModel.class
+com/wss/element/api/repository/IElementRepository.class
+com/wss/element/api/security/config/WebSecurityConfig.class

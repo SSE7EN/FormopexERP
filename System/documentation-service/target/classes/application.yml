@@ -1,0 +1,31 @@
+# Spring properties
+spring:
+  application:
+    name: documentation-service
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/formopex_documentation
+    username: test
+    password: root
+  # JPA properties
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # When you launch the application for the first time - switch "none" at "create"
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
+
+# HTTP Server
+server:
+  port: 8085
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 5   # DO NOT DO THIS IN PRODUCTION

@@ -1,0 +1,12 @@
+com/wss/projectElementCommon/entity/ItemEntity.class
+com/wss/projectElementCommon/entity/ItemListEntity.class
+com/wss/projectElementCommon/dto/ItemListDTO.class
+com/wss/projectElementCommon/dto/ProjectWithElementsDTO.class
+com/wss/projectElementCommon/dto/ProjectDTO.class
+com/wss/projectElementCommon/entity/ElementTypeEntity.class
+com/wss/projectElementCommon/entity/ProjectEntity.class
+com/wss/projectElementCommon/dto/ElementTypeDTO.class
+com/wss/projectElementCommon/entity/ElementEntity.class
+com/wss/projectElementCommon/dto/ElementDTO.class
+com/wss/projectElementCommon/dto/ElementWithProjectDTO.class
+com/wss/projectElementCommon/dto/ItemDTO.class

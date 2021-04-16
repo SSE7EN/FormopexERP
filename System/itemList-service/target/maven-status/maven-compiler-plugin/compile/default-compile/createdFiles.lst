@@ -1,0 +1,15 @@
+com/wss/itemList/api/request/ItemUpdateRequestModel.class
+com/wss/itemList/api/controller/ItemController.class
+com/wss/itemList/api/ItemListServiceApplication.class
+com/wss/itemList/api/controller/ItemListController.class
+com/wss/itemList/api/service/IItemListService.class
+com/wss/itemList/api/repository/IItemRepository.class
+com/wss/itemList/api/request/ItemListUpdateRequestModel.class
+com/wss/itemList/api/request/ItemListCreateRequestModel.class
+com/wss/itemList/api/service/ItemServiceImpl.class
+com/wss/itemList/api/service/ItemListServiceImpl.class
+com/wss/itemList/api/repository/IItemListRepository.class
+com/wss/itemList/api/config/ItemListServiceConfiguration.class
+com/wss/itemList/api/security/config/WebSecurityConfig.class
+com/wss/itemList/api/service/IItemService.class
+com/wss/itemList/api/request/ItemCreateRequestModel.class

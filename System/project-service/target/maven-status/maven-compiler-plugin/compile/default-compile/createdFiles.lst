@@ -1,0 +1,9 @@
+com/wss/project/controller/ProjectController.class
+com/wss/project/repository/IProjectRepository.class
+com/wss/project/security/config/WebSecurityConfig.class
+com/wss/project/request/ProjectUpdateRequestModel.class
+com/wss/project/service/IProjectService.class
+com/wss/project/request/ProjectCreateRequestModel.class
+com/wss/project/config/ProjectServiceConfiguration.class
+com/wss/project/ProjectServiceApplication.class
+com/wss/project/service/ProjectServiceImpl.class

@@ -1,0 +1,9 @@
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/service/ProjectServiceImpl.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/ProjectServiceApplication.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/request/ProjectUpdateRequestModel.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/request/ProjectCreateRequestModel.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/controller/ProjectController.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/config/ProjectServiceConfiguration.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/repository/IProjectRepository.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/security/config/WebSecurityConfig.java
+/home/se7en/Work/Formopex/System/project-service/src/main/java/com/wss/project/service/IProjectService.java

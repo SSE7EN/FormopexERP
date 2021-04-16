@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/elementDocumentationTemplate-service/ElementDocumentationTemplate-service.iml" filepath="$PROJECT_DIR$/elementDocumentationTemplate-service/ElementDocumentationTemplate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/System.iml" filepath="$PROJECT_DIR$/.idea/System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-lib/common-lib.iml" filepath="$PROJECT_DIR$/common-lib/common-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentFile-service/documentFile-service.iml" filepath="$PROJECT_DIR$/documentFile-service/documentFile-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentation-common/documentation-common.iml" filepath="$PROJECT_DIR$/documentation-common/documentation-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentation-service/documentation-service.iml" filepath="$PROJECT_DIR$/documentation-service/documentation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentationProvider-service/documentationProvider-service.iml" filepath="$PROJECT_DIR$/documentationProvider-service/documentationProvider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentationTemplate-data/documentationTemplate-data.iml" filepath="$PROJECT_DIR$/documentationTemplate-data/documentationTemplate-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/documentationTemplate-service/documentationTemplate-service.iml" filepath="$PROJECT_DIR$/documentationTemplate-service/documentationTemplate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/element-service/element-service.iml" filepath="$PROJECT_DIR$/element-service/element-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elementType-service/elementType-service.iml" filepath="$PROJECT_DIR$/elementType-service/elementType-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itemDocumentationTemplate-service/itemDocumentationTemplate-service.iml" filepath="$PROJECT_DIR$/itemDocumentationTemplate-service/itemDocumentationTemplate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itemList-service/itemList-service.iml" filepath="$PROJECT_DIR$/itemList-service/itemList-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itemType-service/itemType-service.iml" filepath="$PROJECT_DIR$/itemType-service/itemType-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-element-data/project-element-data.iml" filepath="$PROJECT_DIR$/project-element-data/project-element-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-service/project-service.iml" filepath="$PROJECT_DIR$/project-service/project-service.iml" />
+    </modules>
+  </component>
+</project>
